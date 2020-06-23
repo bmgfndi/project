@@ -1,1 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+    background-color:#636e72;
+  /*background-color:#636e72;*/
+  position:fixed;
+  top:0;
+  z-index:10;
+  color:white;
+}
+
+header a {
+  color:white;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.logo-header {
+  width: 250px;
+  padding:3px 5px;
+  float:left;
+}
+
+.logo-header-simbol {
+  color: #74b9ff;
+}
+
+.logo-header a:hover{
+  font-size: 20px;
+}
+
+.logo-header a {
+  line-height: 65px;
+  padding: 0 5px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+
+.header-kanan {
+float: right;
+/*font-size:30px;
+padding-top:5px;*/
+}
+
+.header-kanan a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-kanan a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  }
+
+
+.bagian-atas {
+padding: 100px 0 100px 0;
+background-image: url(atas.jpg);
+background-size: cover;
+color: white;
+text-align: center;
+}
+
+.bagian-atas h1 {
+opacity: 0.8;
+font-size: 45px;
+letter-spacing: 5px;
+margin-bottom: 10px;
+}
+
+.bagian-atas p {
+/*opacity: 0.9;*/
+margin-bottom: 3px;
+font-size: 20px;
+}
+
+
+.produk {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /*background-color: #b2bec3;*/
+  text-align: center;
+
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*color: #5f5d60;*/
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.item-produk {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  margin-bottom: 1000px;
+}
+
+.item {
+  background-color: #b2bec3;
+  margin:10px;
+}
+
+.item-text {
+  /*display: none;
+  visibility: hidden;*/
+  }
+
+.item a:hover{
+  background-color: #dfe6e9;
+}
 
